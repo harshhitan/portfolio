@@ -4,30 +4,29 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Harshit Anand’s portfolio. Selected work in frontend development, research tools, and interactive AI applications.">
-  <meta name="theme-color" content="#f6f5ef">
+  <meta name="theme-color" content="#ffffff">
   <title>Harshit Anand | Frontend Developer</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="shell top">
+  <header class="top">
     <a class="brand" href="./">Harshit Anand<span>.</span></a>
     <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
   </header>
   <main id="main">
-    <section class="shell hero" aria-labelledby="intro">
-      <div>
-        <p class="eyebrow">Frontend developer · IIT Kanpur</p>
-        <h1 id="intro">Harshit<br>Anand<span>.</span></h1>
-      </div>
-      <div class="intro">
-        <p>I build web interfaces for exploring data and using AI, from a searchable Reddit archive to a financial research dashboard.</p>
-        <a class="primary" href="#work">View selected work <span aria-hidden="true">↓</span></a>
-      </div>
+    <section class="hero" aria-labelledby="intro">
+      <img class="portrait" src="portrait.png" width="1254" height="1254" alt="Harshit Anand" fetchpriority="high">
+      <h1 id="intro">Frontend Developer</h1>
+      <a class="hero-link" href="#work" aria-label="View selected work">↘</a>
+    </section>
+    <section class="shell intro">
+      <p>I’m Harshit Anand, a frontend developer at IIT Kanpur. I build web interfaces for exploring data and using AI.</p>
+      <p>My work ranges from a searchable Reddit archive to a financial research dashboard with source citations.</p>
     </section>
     <section class="shell work" id="work" aria-labelledby="work-title">
       <h2 id="work-title">Selected work</h2>
-      <article class="feature">
+      <div class="project-grid"><article class="feature">
         <div class="feature-copy">
           <p class="eyebrow">TypeScript · React · Financial research</p>
           <h3>FINN Research Desk</h3>
@@ -45,10 +44,10 @@
           </div>
         </div>
       </article>
-      <div class="project-grid">
-        <article><p class="eyebrow">HTML · JavaScript · Python</p><h3>Hoarddit</h3><p>An offline viewer for your Reddit archive. Search across saved items and browse reconstructed comment threads without a server.</p><a href="https://github.com/harshhitan/hoarddit">Source <span aria-hidden="true">↗</span></a></article>
-        <article><p class="eyebrow">Streamlit · Computer vision</p><h3>Portrait Shadow Remover</h3><p>Draw a mask over the shadow in a portrait and preview the restored image. The model achieved 23.63 dB PSNR in course-project evaluation.</p><a href="https://github.com/harshhitan/Interactive-Portrait-Shadow-Remover">Source <span aria-hidden="true">↗</span></a></article>
-        <article><p class="eyebrow">Python · Retrieval · Time series</p><h3>Telecom Hybrid RAG Agent</h3><p>Turns anomalous windows in 5G telemetry into diagnostic queries and retrieves relevant standards passages for grounded answers.</p><a href="https://github.com/harshhitan/telecom-rag-assisstant">Source <span aria-hidden="true">↗</span></a></article>
+
+        <article><div class="project-art archive" aria-hidden="true"><strong>Hoarddit</strong><span>⌕ Search your archive</span></div><p class="eyebrow">HTML · JavaScript · Python</p><h3>Hoarddit</h3><p>An offline viewer for your Reddit archive. Search across saved items and browse reconstructed comment threads without a server.</p><a href="https://github.com/harshhitan/hoarddit">Source <span aria-hidden="true">↗</span></a></article>
+        <article><div class="project-art vision" aria-hidden="true"><strong>Shadow Remover</strong><span>Draw a mask · Preview the result</span></div><p class="eyebrow">Streamlit · Computer vision</p><h3>Portrait Shadow Remover</h3><p>Draw a mask over the shadow in a portrait and preview the restored image. The model achieved 23.63 dB PSNR in course-project evaluation.</p><a href="https://github.com/harshhitan/Interactive-Portrait-Shadow-Remover">Source <span aria-hidden="true">↗</span></a></article>
+        <article><div class="project-art telecom" aria-hidden="true"><strong>5G diagnostics</strong><span>Telemetry → Standards → Findings</span></div><p class="eyebrow">Python · Retrieval · Time series</p><h3>Telecom Hybrid RAG Agent</h3><p>Turns anomalous windows in 5G telemetry into diagnostic queries and retrieves relevant standards passages for grounded answers.</p><a href="https://github.com/harshhitan/telecom-rag-assisstant">Source <span aria-hidden="true">↗</span></a></article>
       </div>
     </section>
     <section class="shell experience" id="experience" aria-labelledby="experience-title">
@@ -60,7 +59,7 @@
       </div>
     </section>
   </main>
-  <footer id="contact"><div class="shell contact">
+  <footer id="contact"><div class="shell contact"><a class="touch" href="mailto:harshita23@iitk.ac.in">Get in touch ↗</a>
     <div><h2>Let’s talk.</h2><a href="mailto:harshita23@iitk.ac.in">harshita23@iitk.ac.in</a></div>
     <div class="links"><a href="https://github.com/harshhitan">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/harshit-anand-a33172284">LinkedIn <span aria-hidden="true">↗</span></a></div>
   </div></footer>
